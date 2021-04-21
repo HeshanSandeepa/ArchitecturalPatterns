@@ -1,0 +1,21 @@
+Characteristics of MVP
+
+1. The view part of the MVP consists of both UIViews and UIViewController.
+
+2. The view delegates user interactions to the presenter.
+
+3. The presenter contains the logic to handle user interactions.
+
+4. The presenter communicates with model layer, converts the data to UI friendly
+   format, and updates the view.
+
+5. The presenter has no dependencies to UIKit.
+
+6. The view is passive (dump).
+
+7. One of the benefits of doing MVP is to be able to test the biggest part of the UI logic without testing the UIViewController itself.
+
+
+*** It’s important to note that MVP uses passive View pattern. it means all the actions will be forwarded to the presenter. Which will trigger the ui updates using delegates. so the view will only passe actions and listen to the presenter updates
+
+*** However, this is not a perfect solution knowing that the presenter will have too much work to do. then we will not be respecting the single responsibility principle
