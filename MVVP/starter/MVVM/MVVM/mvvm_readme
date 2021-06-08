@@ -1,0 +1,5 @@
+01. ViewModel holds data for UI
+02. UIController( Activity, Fragment) only displays & gets user/OS events
+03. UI Controller should not make any decisions
+04. ViewModel never references fragments, activities or views ( as they do not survive configuration changes), it uses binding
+

@@ -23,6 +23,9 @@
 		026211051C0583E9008E836A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 026211031C0583E9008E836A /* LaunchScreen.xib */; };
 		02FD9B931C61807900087B93 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD9B921C61807900087B93 /* User.swift */; };
 		0429A7C41C62A14000AB3309 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429A7C31C62A14000AB3309 /* Helpers.swift */; };
+		CC34922F264184C700D58A27 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC34922E264184C700D58A27 /* UserViewModel.swift */; };
+		CC438B4E266F529500A72BA6 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC438B4D266F529500A72BA6 /* Box.swift */; };
+		CC438B52266F5A4F00A72BA6 /* mvvm_readme in Resources */ = {isa = PBXBuildFile; fileRef = CC438B51266F5A4F00A72BA6 /* mvvm_readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		026211041C0583E9008E836A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		02FD9B921C61807900087B93 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0429A7C31C62A14000AB3309 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		CC34922E264184C700D58A27 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserViewModel.swift; path = ../../../../UserViewModel.swift; sourceTree = "<group>"; };
+		CC438B4D266F529500A72BA6 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		CC438B51266F5A4F00A72BA6 /* mvvm_readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mvvm_readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,13 +131,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		0243B8CE1C027D7B007B248B /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		0244C7861BFEE486003911FD = {
 			isa = PBXGroup;
 			children = (
@@ -153,14 +152,16 @@
 		0244C7911BFEE486003911FD /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				CC438B51266F5A4F00A72BA6 /* mvvm_readme */,
 				0244C7921BFEE486003911FD /* AppDelegate.swift */,
 				0244C7961BFEE486003911FD /* Main.storyboard */,
 				0243B8CA1C027BD4007B248B /* Controllers */,
 				0243B8CB1C027C0A007B248B /* Views */,
 				0243B8CD1C027D5B007B248B /* Models */,
-				0243B8CE1C027D7B007B248B /* ViewModels */,
+				CC3492232641841700D58A27 /* ViewModels */,
 				0243B8C81C027A76007B248B /* API */,
 				0243B8CC1C027C36007B248B /* Resources */,
+				CC438B4D266F529500A72BA6 /* Box.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -172,6 +173,14 @@
 				0244C7A91BFEE487003911FD /* Info.plist */,
 			);
 			path = MVVMTests;
+			sourceTree = "<group>";
+		};
+		CC3492232641841700D58A27 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CC34922E264184C700D58A27 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +268,7 @@
 			files = (
 				026211051C0583E9008E836A /* LaunchScreen.xib in Resources */,
 				0243B8C31C010E07007B248B /* ThreatData in Resources */,
+				CC438B52266F5A4F00A72BA6 /* mvvm_readme in Resources */,
 				0244C79A1BFEE486003911FD /* Assets.xcassets in Resources */,
 				0244C7981BFEE486003911FD /* Main.storyboard in Resources */,
 			);
@@ -279,10 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0243B8BC1BFFE139007B248B /* SpyService.swift in Sources */,
+				CC34922F264184C700D58A27 /* UserViewModel.swift in Sources */,
 				0243B8D41C03BF4A007B248B /* Threat.swift in Sources */,
 				0243B8C71C014512007B248B /* LockAnimator.swift in Sources */,
 				0243B8B61BFFD59B007B248B /* ImageCollectionViewCell.swift in Sources */,
 				0429A7C41C62A14000AB3309 /* Helpers.swift in Sources */,
+				CC438B4E266F529500A72BA6 /* Box.swift in Sources */,
 				0244C7951BFEE486003911FD /* LoginViewController.swift in Sources */,
 				0244C7931BFEE486003911FD /* AppDelegate.swift in Sources */,
 				02FD9B931C61807900087B93 /* User.swift in Sources */,

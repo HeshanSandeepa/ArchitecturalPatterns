@@ -26,3 +26,13 @@ import Foundation
 //    let dispatchTime = dispatch_time(dispatch_time_t(DispatchTime.now()), Int64(seconds * Double(NSEC_PER_SEC)))
 //  dispatch_after(dispatchTime, dispatch_get_main_queue(), block)
 //}
+//
+//30
+//
+//Simplest solution in Swift 3.0 & Swift 4.0 & Swift 5.0
+
+func dispatchAfter(_ seconds: Double, completion: @escaping () -> ()) {
+    DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
+        completion()
+    }
+}
