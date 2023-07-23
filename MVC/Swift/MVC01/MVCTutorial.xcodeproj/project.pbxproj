@@ -21,8 +21,7 @@
 		559978D321F67E2400811427 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559978D221F67E2400811427 /* DetailViewController.swift */; };
 		559978D921F6AE5A00811427 /* SessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559978D821F6AE5A00811427 /* SessionCell.swift */; };
 		559978DB21F6B0DC00811427 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559978DA21F6B0DC00811427 /* Constants.swift */; };
-		CC25C9BB25DBB01200BB8B49 /* Screenshot 2021-02-16 at 1.17.09 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CC25C9BA25DBB01200BB8B49 /* Screenshot 2021-02-16 at 1.17.09 PM.png */; };
-		CC25C9C125DBB2B200BB8B49 /* Screenshot 2021-02-16 at 1.27.52 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CC25C9C025DBB2B200BB8B49 /* Screenshot 2021-02-16 at 1.27.52 PM.png */; };
+		56F742632A6D2519004ED606 /* Screenshot 2023-07-23 at 14.36.05.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F742622A6D2519004ED606 /* Screenshot 2023-07-23 at 14.36.05.png */; };
 		D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F2071F4A9144005CD714 /* Main.storyboard */; };
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
@@ -43,8 +42,7 @@
 		559978D221F67E2400811427 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		559978D821F6AE5A00811427 /* SessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
 		559978DA21F6B0DC00811427 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		CC25C9BA25DBB01200BB8B49 /* Screenshot 2021-02-16 at 1.17.09 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-02-16 at 1.17.09 PM.png"; sourceTree = "<group>"; };
-		CC25C9C025DBB2B200BB8B49 /* Screenshot 2021-02-16 at 1.27.52 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-02-16 at 1.27.52 PM.png"; sourceTree = "<group>"; };
+		56F742622A6D2519004ED606 /* Screenshot 2023-07-23 at 14.36.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-23 at 14.36.05.png"; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* MVCTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,8 +72,7 @@
 		559978B321F60D7900811427 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CC25C9BA25DBB01200BB8B49 /* Screenshot 2021-02-16 at 1.17.09 PM.png */,
-				CC25C9C025DBB2B200BB8B49 /* Screenshot 2021-02-16 at 1.27.52 PM.png */,
+				56F742622A6D2519004ED606 /* Screenshot 2023-07-23 at 14.36.05.png */,
 				D2A5F20A1F4A9144005CD714 /* Assets.xcassets */,
 				5394F02321864DF4006E754C /* LaunchScreen.storyboard */,
 				D2A5F2071F4A9144005CD714 /* Main.storyboard */,
@@ -217,11 +214,10 @@
 			files = (
 				559978C021F610D600811427 /* WWDCAttendees.json in Resources */,
 				5394F02521864DF5006E754C /* LaunchScreen.storyboard in Resources */,
-				CC25C9BB25DBB01200BB8B49 /* Screenshot 2021-02-16 at 1.17.09 PM.png in Resources */,
 				559978BE21F610C600811427 /* WWDCSessions.json in Resources */,
 				D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */,
 				D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */,
-				CC25C9C125DBB2B200BB8B49 /* Screenshot 2021-02-16 at 1.27.52 PM.png in Resources */,
+				56F742632A6D2519004ED606 /* Screenshot 2023-07-23 at 14.36.05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
