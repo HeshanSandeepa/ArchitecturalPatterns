@@ -1,0 +1,16 @@
+Traditional MVC
+
+
+View ---------------------> Controller ---------------------> Model ---------------------> View
+     ( user input, event )                    ( modify )               ( updates via observer )
+
+
+01. Model
+Contains the app state ( Data, Logic, State that user wants to see & manipulate )
+
+02. Controller
+Interprets user interaction with the view into action that modifies the model
+
+03. View
+Visualize app state according to model & allow user to interact with it.
+
