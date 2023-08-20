@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "MVCDemo"
-include ':app'
+include ':traditional_mvc'
