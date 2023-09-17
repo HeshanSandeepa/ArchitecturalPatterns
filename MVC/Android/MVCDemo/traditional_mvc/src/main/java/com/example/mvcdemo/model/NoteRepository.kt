@@ -1,6 +1,5 @@
 package com.example.mvcdemo.model
 
-import androidx.databinding.ObservableList
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.kotlin.toObservable
 

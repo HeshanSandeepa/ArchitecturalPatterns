@@ -1,0 +1,17 @@
+Modern MVC
+
+
+View ---------------------> Controller ---------------------> Model ---------------------> Controller --------------------->  View
+     ( user input, event )         ( modify upon business logic )  ( pulls vis getters & setters )    (represents state on the ui)
+
+
+01. Model
+Contains the app state ( Data, Logic, State that user wants to see & manipulate )
+No business logic in the model
+
+02. Controller
+Interprets user interaction with the view into action that modifies the model
+
+03. View
+Visualize app state according to model & allow user to interact with it.
+

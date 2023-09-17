@@ -23,7 +23,7 @@ import com.example.mvcdemo.controller.NoteController
 import com.example.mvcdemo.model.Note
 import com.example.mvcdemo.model.NoteRepository
 import com.example.mvcdemo.ui.theme.MVCDemoTheme
-import io.reactivex.rxjava3.core.Observable
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,7 +54,7 @@ fun NoteScreen(noteController: NoteController, modifier: Modifier = Modifier) {
 
 
 
-    Column(        modifier = modifier,
+    Column( modifier = modifier,
         verticalArrangement = Arrangement.SpaceBetween) {
         OutlinedTextField(
             value = text,
@@ -68,7 +68,7 @@ fun NoteScreen(noteController: NoteController, modifier: Modifier = Modifier) {
         }
 
 
-       // NoteList(notes = notes)
+        // NoteList(notes = notes)
 
     }
 }
